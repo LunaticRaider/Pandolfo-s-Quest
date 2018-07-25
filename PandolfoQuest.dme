@@ -18,5 +18,7 @@
 #include "Code\cenario.dm"
 #include "Code\mobs.dm"
 #include "Code\NPC.dm"
+#include "Code\Modules\Light\LightController.dm"
+#include "Code\Modules\Light\Planes.dm"
 // END_INCLUDE
 
