@@ -1,5 +1,3 @@
-// This is just stuff for the demo, verbs, randomly moving mob, stuff like that.
-
 mob
 	var/tmp/zonks=0
 	Login()
@@ -49,7 +47,8 @@ mob
 
 		Darkness_level(n as num)
 			if(darkness) darkness.alpha = n
-		//Cough...
+
+		// Cough...
 		ZOINKS()
 			animate(master_plane,transform = matrix()*rand(2,6),time=5,loop=5)
 			animate(master_plane,transform = null,time=5,loop=5)

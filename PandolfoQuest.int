@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1525650565
-DIR: Audios Code Code\Modules Code\Modules\Light 
+LAST_COMPILE_TIME: 1532485878
+DIR: Code\Modules\Light 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 512.1412
+LAST_COMPILE_VERSION: 512.1426
 WINDOW: PandolfoQuest.dm;Code\mobs.dm;Code\cenario.dm;Code\Modules\Light\Planes.dm;Code\Modules\Light\LightController.dm
 FILE: Code\Modules\Light\LightController.dm
 */
