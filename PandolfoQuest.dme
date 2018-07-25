@@ -7,6 +7,11 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "Audios"
+#define FILE_DIR "Code"
+#define FILE_DIR "Code/Modules"
+#define FILE_DIR "Code/Modules/Light"
+#define FILE_DIR "Sprites"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -14,11 +19,12 @@
 
 // BEGIN_INCLUDE
 #include "PandolfoQuest.dm"
-#include "teste2.dmm"
-#include "Code\cenario.dm"
+#include "TestMap.dmm"
+#include "Code\MasterTurfs.dm"
 #include "Code\mobs.dm"
-#include "Code\NPC.dm"
 #include "Code\Modules\Light\LightController.dm"
 #include "Code\Modules\Light\Planes.dm"
+#include "Game\Turfs\Floors\Floors.dm"
+#include "Game\Turfs\Walls\Walls.dm"
 // END_INCLUDE
 
