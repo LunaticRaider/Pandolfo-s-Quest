@@ -40,18 +40,19 @@ obj
 			on_matrix.Scale(8)
 			off_matrix.Scale(0)
 			light.transform = off_matrix
+			light.color = rgb(255,192,115)
 			Toggle()
 		Click()
 			Toggle()
 		proc/Toggle()
 			if(icon_state == "off")
 				icon_state = "on"
-				animate(light,transform=on_matrix,time=5)
+				animate(light,color=rgb(255,192,115),transform=on_matrix,time=5)
 				sleep(6)
-				animate(light,color=rgb(220,220,220),time=4,loop=-1)
+				animate(light,color=rgb(240,170,84),time=4,loop=-1)
 			else
 				icon_state = "off"
-				animate(light,transform=off_matrix,time=5)
+				animate(light,color=rgb(255,192,115),transform=off_matrix,time=5)
 				light.color = null
 
 
@@ -69,6 +70,7 @@ mob
 		src << darkness
 		light = new(src.loc)
 		light.alpha = 150
+		light.color = rgb(255,192,115)
 		darkness.alpha = 20
 		var/matrix/m = new()
 		m.Scale(2)

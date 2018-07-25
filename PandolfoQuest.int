@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1532487923
-DIR: Code Code\Modules Code\Modules\Light Game Game\Turfs Game\Turfs\Floors Game\Turfs\Walls Sprites 
+LAST_COMPILE_TIME: 1532489844
+DIR: Code Code\Modules Code\Modules\Light Game\Turfs Game\Turfs\Floors Game\Turfs\Walls 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: PandolfoQuest.dm;Code\mobs.dm;Code\MasterTurfs.dm;Code\Modules\Light\Planes.dm;Code\Modules\Light\LightController.dm;PandolfoQuest.dme;Sprites\grass.dmi;Sprites\deepwater.dmi;Sprites\bed.dmi;Sprites\floors.dmi;TestMap.dmm;Game\Turfs\Walls\Walls.dm;Sprites\walls.dmi;Game\Turfs\Floors\Floors.dm;Sprites\beachsand.dmi;Sprites\critters.dmi
-FILE: Sprites\floors.dmi
+WINDOW: PandolfoQuest.dm;Code\mobs.dm;Code\MasterTurfs.dm;Code\Modules\Light\Planes.dm;Code\Modules\Light\LightController.dm;PandolfoQuest.dme;Sprites\grass.dmi;Sprites\deepwater.dmi;Sprites\bed.dmi;Sprites\floors.dmi;TestMap.dmm;Game\Turfs\Walls\Walls.dm;Game\Turfs\Floors\Floors.dm;Code\Modules\Light\darkness.dmi;Code\Modules\Light\lamp.dmi;Code\Modules\Light\light.dmi
+FILE: Code\Modules\Light\Planes.dm
 */
 // END_INTERNALS
