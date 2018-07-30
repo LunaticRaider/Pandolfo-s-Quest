@@ -1,4 +1,4 @@
-# Pandolfo-s-Quest
-Jogo irônico de um cara desocupado.
+# Planetary Suffering
+Jogo desocupado.
 
 Só isso mesmo.
