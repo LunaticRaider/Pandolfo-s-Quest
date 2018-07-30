@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1532489844
-DIR: Code Code\Modules Code\Modules\Light Game\Turfs Game\Turfs\Floors Game\Turfs\Walls 
+LAST_COMPILE_TIME: 1532983884
+DIR: Code\Mobs\Races\Xeno Code\Modules\__lib Code\Modules\Mob\Human Game Game\Items Game\Items\Magic Game\Turfs\Floors Game\Turfs\Walls 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 512.1426
-WINDOW: PandolfoQuest.dm;Code\mobs.dm;Code\MasterTurfs.dm;Code\Modules\Light\Planes.dm;Code\Modules\Light\LightController.dm;PandolfoQuest.dme;Sprites\grass.dmi;Sprites\deepwater.dmi;Sprites\bed.dmi;Sprites\floors.dmi;TestMap.dmm;Game\Turfs\Walls\Walls.dm;Game\Turfs\Floors\Floors.dm;Code\Modules\Light\darkness.dmi;Code\Modules\Light\lamp.dmi;Code\Modules\Light\light.dmi
-FILE: Code\Modules\Light\Planes.dm
+WINDOW: Sprites\overlays.dmi;Game\Turfs\Floors\Floors.dm;Code\Modules\__lib\Click.dm;Game\Items\Main.dm;Game\Items\Magic\MagicItems.dm;Code\Modules\Mob\Human\Interactions.dm;Code\Modules\Objects\Gathering.dm;Sprites\items.dmi;Sprites\furniture.dmi;Sprites\kitchen.dmi;Code\Modules\Light\lamp.dmi;Code\Modules\Cook\Main.dm;css.dms;Code\__Client.dm;Code\Mobs\Races\Xeno\Xeno.dm;Sprites\lobby.dmi;lobby.dm;Game\Turfs\Floors\Xeno.dm;Game\Test\Test.dm;Code\Mobs\Stats.dm;Game\Turfs\Main.dm;Code\mobs.dm;Code\MasterTurfs.dm;Code\Modules\Light\LightController.dm;Code\Modules\Light\Planes.dm;Sprites\deepwater.dmi;Sprites\floors.dmi;Sprites\testitems.dmi;Sprites\walls.dmi;Sprites\bed.dmi
+FILE: Game\Items\Magic\MagicItems.dm
 */
 // END_INTERNALS

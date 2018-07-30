@@ -2,7 +2,7 @@ mob
 	var/tmp/zonks=0
 	Login()
 		..()
-		client.screen += new/obj/cpu_display()
+		client.screen += new/obj/day()
 
 	proc
 
@@ -43,12 +43,10 @@ mob
 
 		New_Lamp()
 			new/obj/lamp(src.loc)
-			src << "Clique na lanterna para a ligar/desligar."
 
 		Darkness_level(n as num)
 			if(darkness) darkness.alpha = n
 
-		// Cough...
 		ZOINKS()
 			animate(master_plane,transform = matrix()*rand(2,6),time=5,loop=5)
 			animate(master_plane,transform = null,time=5,loop=5)
@@ -62,7 +60,7 @@ mob
 				sleep(10)
 
 obj
-	cpu_display
+	day
 		screen_loc = "1,1"
 		plane = 3
 		maptext_width = 256
@@ -70,5 +68,5 @@ obj
 			..()
 			spawn(1)
 				while(src)
-					maptext = "<font color=white>CPU DO SERVER: [world.cpu]%</font>"
+					maptext = "<font color=white>Day: 1</font>" //depois ok
 					sleep(10)
